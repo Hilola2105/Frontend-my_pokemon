@@ -1,28 +1,32 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
 # Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Tasks
+- Create a ReactJS application.
+- Integrate the PokeAPI to fetch a list of Pokémon.
+- Implement a search bar to filter Pokémon by name.
+- Develop a detail page to display additional information about each Pokémon.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Description
+This project is aimed at creating a user-friendly interface for browsing Pokémon information. By leveraging ReactJS, it provides a seamless experience for users to explore various Pokémon available in the PokeAPI database. The search functionality enhances usability by allowing users to quickly find specific Pokémon by name. Additionally, the detail page offers comprehensive details about individual Pokémon, enriching the user experience.
 
-Your application will also provide a search bar to filter pokemon.
+## Installation
+1. Clone the repository to your local machine:
+    ```
+    git clone https://github.com/yourusername/pokemon-project.git
+    ```
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+2. Navigate to the project directory:
+    ```
+    cd pokemon-project
+    ```
 
-In order to perform the request to the API, you can use `Axios`.
+3. Install dependencies using npm:
+    ```
+    npm install
+    ```
 
-Your application needs to handle `errors`. (No internet/bad request.)
-
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
-
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
-
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
-
-On the css/colors/design, you can be creative.
+## Usage
+Start the development server:
+    ```
+    npm start
+    ```
